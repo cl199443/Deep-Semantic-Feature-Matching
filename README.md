@@ -6,6 +6,8 @@ The feature extraction module is the VGG19-net without full-connected layers. Wi
 
 In order to find pixel-level correspondence in source and target images, a coarse-to-fine matching strategy from the higher feature pyramid layers to lower layers is implemented in BPConv.py.
 
+In order to increase the time efficiency, I have tried to make some coding tricks in the BPConvCopy.py.
+
 [1] N. Ufer, B. Ommer. Deep semantic feature matching. In CVPR ,2017.
 
 [2] K. Aberman, J. Liao, M. Shi, D. Lischinski, B. Chen, and D. Cohen. Neural Best-Buddies: Sparse Cross-Domain Correspondence. ACM Transactions on Graphics, 37(4):69, 2018.
